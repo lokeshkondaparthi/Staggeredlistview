@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import java.util.List;
 
@@ -72,7 +71,7 @@ public class ListViewAdapter extends BaseAdapter {
             viewHolder.mLinearLayout.addView(mView1);
         }*/
 
-        List<String> subModelList = mHobbListModelsList.get(i).getSubModelList();
+       /* List<String> subModelList = mHobbListModelsList.get(i).getSubModelList();
         if (i %3 != 0 &      i != 0) {
             for (int i1 = 0; i1 < subModelList.size(); i1++) {
                 TextView mView1 = new TextView(mContext);
@@ -103,7 +102,7 @@ public class ListViewAdapter extends BaseAdapter {
                 mView1.setVisibility(View.INVISIBLE);
                 viewHolder.mLinearLayout.addView(mView1);
             }
-        }
+        }*/
 
 
         return view;

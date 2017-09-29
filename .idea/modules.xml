@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StaggeredListViewDemo.iml" filepath="$PROJECT_DIR$/StaggeredListViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Staggeredlistview.iml" filepath="$PROJECT_DIR$/Staggeredlistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

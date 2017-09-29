@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ListModel {
     String hobbie;
-    List<String> mSubModelList;
+    List<SubListModel> mSubModelList;
 
     public String getHobbie() {
         return hobbie;
@@ -18,11 +18,11 @@ public class ListModel {
         this.hobbie = hobbie;
     }
 
-    public List<String> getSubModelList() {
+    public List<SubListModel> getSubModelList() {
         return mSubModelList;
     }
 
-    public void setSubModelList(List<String> subModelList) {
+    public void setSubModelList(List<SubListModel> subModelList) {
         mSubModelList = subModelList;
     }
 }
